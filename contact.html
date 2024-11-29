@@ -7,54 +7,79 @@
     <link rel="stylesheet" href="/css/bootstrap_min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand fs-2 text-danger-emphasis" href="#"><img src="/images/japanese-garden.jpg" width="150px" height="75px"/>Golden Company</a>
-          <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active bg-success" href="contact.html">Contact Us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Gallery
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="photos.html">Photos</a></li>
-                  <li><a class="dropdown-item" href="videos.html">Videos</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand fs-2 text-danger-emphasis" href="#"><img src="/images/japanese-garden.jpg" width="150px" height="75px"/>Golden Company</a>
+              <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active bg-success" href="contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Gallery
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="photos.html">Photos</a></li>
+                      <li><a class="dropdown-item" href="videos.html">Videos</a></li>
+                      
+                    </ul>
+                  </li>
                   
                 </ul>
-              </li>
-              
-            </ul>
-            
-          </div>
-        </div>
-      </nav>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
     
-    <section class="bg-light">
+    <section class="bg-light p-4">
         <div class="container bg-warning">
             <div class="row">
-                <div class="col-md-6 border border-2 m-3 p-2">
+                <h1 class="text-center mt-4">Reach Out Us</h1>
+                <div class="col-md-6 border border-2 mt-6 p-5">
                     <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                        </div>
+                        
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                          </div>
-                          <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Address</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                          </div>
+                        </div>
                     </form>
+                </div>
+                <div class="col-md-6 border border-2 p-3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1933.4538959373212!2d73.80193032231725!3d18.629389892161644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b84de4482a6b%3A0x94184c644e728aed!2sFinolex%20Cables%20Ltd.-%20H.O.!5e0!3m2!1sen!2sin!4v1732863734630!5m2!1sen!2sin" width="100%" height="450" class="border border-2 border-danger" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
